@@ -1,20 +1,3 @@
-function makeSandwichWith (filling){
- ;
- ;
- ;
-}
-
-makeSandwichWith('ham');
-
-
-function sayHiTo (person) {
- console.log('hi', person);  
-
-}
-
-sayHiTo('Nate') // person = Nate
-
-
 var todos = ['item 1', 'item 2', 'item 3'];
 
 //use this function code to display todos
