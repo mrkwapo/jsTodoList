@@ -7,10 +7,11 @@ var todoList = {
         else {
             console.log('My Todos:');
             for (var i = 0; i < this.todos.length; i++) {
-    
-                if(this.todos[i].completed === true) {
+
+                if (this.todos[i].completed === true) {
                     console.log('(x)', this.todos[i].todoText);
-                }else{
+                }
+                else {
                     console.log('( )', this.todos[i].todoText);
                 }
             }
